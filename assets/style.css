@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Rating-state{
+    background-color: hsl(213, 19%, 18%);
+    width: 320px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+.figure-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(211, 18%, 25%);
+    margin: 0 0 20px 0;
+}
+
+.img-star{
+    width: 15px;
+}
+
+.title{
+    color:hsl(0, 0%, 100%);
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+ 
+}
+
+.text{
+    width: 280px;
+    color: hsl(217, 12%, 63%);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.numb-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -30px;
+    
+}
+
+.numb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(211, 18%, 25%);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    width: 280px;
+    height: 40px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:active{
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.Thank-state{
+    background-color: hsl(213, 19%, 18%);
+    width: 320px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    display: none;
+    
+}
+
+.img-thank{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.rating-text{
+    color:hsl(25, 97%, 53%);
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: hsl(211, 18%, 25%);
+}
+
+.title-thanks{
+    color:hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+}
+
+.text-thanks{
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    width: 85%;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -20px;
+}
