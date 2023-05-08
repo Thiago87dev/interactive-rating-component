@@ -65,8 +65,8 @@ num.forEach(i => {
 
 ### Continued development
 
-forEach
-arrow function
+- forEach
+- Jarrow function
 
 ### Useful resources
 
