@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-LkWIoVYGzY](https://www.frontendmentor.io/solutions/interactive-rating-component-using-html-css-and-javascript-LkWIoVYGzY)
 - Live Site URL: [https://thiago87dev.github.io/interactive-rating-component/](https://thiago87dev.github.io/interactive-rating-component/)
 
 ## My process
